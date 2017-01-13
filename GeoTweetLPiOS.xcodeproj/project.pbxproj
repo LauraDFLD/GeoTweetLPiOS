@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D337085C1E291E2A00DF6FBE /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33708581E291E2A00DF6FBE /* Fabric.framework */; };
+		D337085D1E291E2A00DF6FBE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33708591E291E2A00DF6FBE /* TwitterKit.framework */; };
+		D337085E1E291E2A00DF6FBE /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D337085A1E291E2A00DF6FBE /* TwitterKitResources.bundle */; };
+		D337085F1E291E2A00DF6FBE /* TwitterCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D337085B1E291E2A00DF6FBE /* TwitterCore.framework */; };
+		D33708611E2929E000DF6FBE /* SearchTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33708601E2929E000DF6FBE /* SearchTimelineViewController.swift */; };
 		D3B3F8B91E28EEF2008FD767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */; };
 		D3B3F8BB1E28EEF2008FD767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */; };
 		D3B3F8BE1E28EEF2008FD767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8BC1E28EEF2008FD767 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D33708581E291E2A00DF6FBE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
+		D33708591E291E2A00DF6FBE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = ../TwitterKit.framework; sourceTree = "<group>"; };
+		D337085A1E291E2A00DF6FBE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = ../TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
+		D337085B1E291E2A00DF6FBE /* TwitterCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterCore.framework; path = ../TwitterCore.framework; sourceTree = "<group>"; };
+		D33708601E2929E000DF6FBE /* SearchTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTimelineViewController.swift; sourceTree = "<group>"; };
 		D3B3F8B51E28EEF2008FD767 /* GeoTweetLPiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoTweetLPiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +39,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D337085C1E291E2A00DF6FBE /* Fabric.framework in Frameworks */,
+				D337085F1E291E2A00DF6FBE /* TwitterCore.framework in Frameworks */,
+				D337085D1E291E2A00DF6FBE /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +67,17 @@
 		D3B3F8B71E28EEF2008FD767 /* GeoTweetLPiOS */ = {
 			isa = PBXGroup;
 			children = (
+				D33708581E291E2A00DF6FBE /* Fabric.framework */,
+				D33708591E291E2A00DF6FBE /* TwitterKit.framework */,
+				D337085A1E291E2A00DF6FBE /* TwitterKitResources.bundle */,
+				D337085B1E291E2A00DF6FBE /* TwitterCore.framework */,
 				D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */,
 				D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */,
 				D3B3F8BC1E28EEF2008FD767 /* Main.storyboard */,
 				D3B3F8BF1E28EEF2008FD767 /* Assets.xcassets */,
 				D3B3F8C11E28EEF2008FD767 /* LaunchScreen.storyboard */,
 				D3B3F8C41E28EEF2008FD767 /* Info.plist */,
+				D33708601E2929E000DF6FBE /* SearchTimelineViewController.swift */,
 			);
 			path = GeoTweetLPiOS;
 			sourceTree = "<group>";
@@ -74,6 +92,7 @@
 				D3B3F8B11E28EEF2008FD767 /* Sources */,
 				D3B3F8B21E28EEF2008FD767 /* Frameworks */,
 				D3B3F8B31E28EEF2008FD767 /* Resources */,
+				D33708571E291DD200DF6FBE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -123,6 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D337085E1E291E2A00DF6FBE /* TwitterKitResources.bundle in Resources */,
 				D3B3F8C31E28EEF2008FD767 /* LaunchScreen.storyboard in Resources */,
 				D3B3F8C01E28EEF2008FD767 /* Assets.xcassets in Resources */,
 				D3B3F8BE1E28EEF2008FD767 /* Main.storyboard in Resources */,
@@ -131,11 +151,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D33708571E291DD200DF6FBE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run ef9dedc23d347ffa81f845954098af51862154a0 a6718fac2e529d06b14a0b4d47422c47f4f4c146ea46b804b4c749ca996526ec";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3B3F8B11E28EEF2008FD767 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33708611E2929E000DF6FBE /* SearchTimelineViewController.swift in Sources */,
 				D3B3F8BB1E28EEF2008FD767 /* ViewController.swift in Sources */,
 				D3B3F8B91E28EEF2008FD767 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +297,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GeoTweetLPiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ld.GeoTweetLPiOS;
@@ -272,6 +313,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GeoTweetLPiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ld.GeoTweetLPiOS;
@@ -299,6 +344,7 @@
 				D3B3F8C91E28EEF2008FD767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
