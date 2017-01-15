@@ -19,5 +19,7 @@ class SearchTimelineViewController: TWTRTimelineViewController {
         
         let client = TWTRAPIClient()
         self.dataSource = TWTRSearchTimelineDataSource(searchQuery: "#LPDev since:2017-01-01", apiClient: client)
+        
+        
     }
 }

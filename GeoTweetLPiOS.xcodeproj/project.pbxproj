@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31E5EF41E2969FF0084D70E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31E5EF31E2969FF0084D70E /* MapKit.framework */; };
+		D33374721E2A391D002B8A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33374711E2A391D002B8A75 /* Assets.xcassets */; };
 		D337085C1E291E2A00DF6FBE /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33708581E291E2A00DF6FBE /* Fabric.framework */; };
 		D337085D1E291E2A00DF6FBE /* TwitterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D33708591E291E2A00DF6FBE /* TwitterKit.framework */; };
 		D337085E1E291E2A00DF6FBE /* TwitterKitResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D337085A1E291E2A00DF6FBE /* TwitterKitResources.bundle */; };
@@ -15,11 +17,12 @@
 		D3B3F8B91E28EEF2008FD767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */; };
 		D3B3F8BB1E28EEF2008FD767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */; };
 		D3B3F8BE1E28EEF2008FD767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8BC1E28EEF2008FD767 /* Main.storyboard */; };
-		D3B3F8C01E28EEF2008FD767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8BF1E28EEF2008FD767 /* Assets.xcassets */; };
 		D3B3F8C31E28EEF2008FD767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8C11E28EEF2008FD767 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D31E5EF31E2969FF0084D70E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D33374711E2A391D002B8A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33708581E291E2A00DF6FBE /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = ../Fabric.framework; sourceTree = "<group>"; };
 		D33708591E291E2A00DF6FBE /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = ../TwitterKit.framework; sourceTree = "<group>"; };
 		D337085A1E291E2A00DF6FBE /* TwitterKitResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TwitterKitResources.bundle; path = ../TwitterKit.framework/Versions/A/Resources/TwitterKitResources.bundle; sourceTree = "<group>"; };
@@ -29,7 +32,6 @@
 		D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3B3F8BD1E28EEF2008FD767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3B3F8BF1E28EEF2008FD767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3B3F8C21E28EEF2008FD767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3B3F8C41E28EEF2008FD767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +43,7 @@
 			files = (
 				D337085C1E291E2A00DF6FBE /* Fabric.framework in Frameworks */,
 				D337085F1E291E2A00DF6FBE /* TwitterCore.framework in Frameworks */,
+				D31E5EF41E2969FF0084D70E /* MapKit.framework in Frameworks */,
 				D337085D1E291E2A00DF6FBE /* TwitterKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,11 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D31E5EF21E2969FF0084D70E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D31E5EF31E2969FF0084D70E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3B3F8AC1E28EEF1008FD767 = {
 			isa = PBXGroup;
 			children = (
 				D3B3F8B71E28EEF2008FD767 /* GeoTweetLPiOS */,
 				D3B3F8B61E28EEF2008FD767 /* Products */,
+				D31E5EF21E2969FF0084D70E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,8 +85,8 @@
 				D337085B1E291E2A00DF6FBE /* TwitterCore.framework */,
 				D3B3F8B81E28EEF2008FD767 /* AppDelegate.swift */,
 				D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */,
+				D33374711E2A391D002B8A75 /* Assets.xcassets */,
 				D3B3F8BC1E28EEF2008FD767 /* Main.storyboard */,
-				D3B3F8BF1E28EEF2008FD767 /* Assets.xcassets */,
 				D3B3F8C11E28EEF2008FD767 /* LaunchScreen.storyboard */,
 				D3B3F8C41E28EEF2008FD767 /* Info.plist */,
 				D33708601E2929E000DF6FBE /* SearchTimelineViewController.swift */,
@@ -116,6 +128,11 @@
 					D3B3F8B41E28EEF2008FD767 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -144,7 +161,7 @@
 			files = (
 				D337085E1E291E2A00DF6FBE /* TwitterKitResources.bundle in Resources */,
 				D3B3F8C31E28EEF2008FD767 /* LaunchScreen.storyboard in Resources */,
-				D3B3F8C01E28EEF2008FD767 /* Assets.xcassets in Resources */,
+				D33374721E2A391D002B8A75 /* Assets.xcassets in Resources */,
 				D3B3F8BE1E28EEF2008FD767 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

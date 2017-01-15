@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Connexion-->
+        <!--Connection-->
         <scene sceneID="NkA-lG-mwc">
             <objects>
                 <viewController id="XCm-JJ-mfy" customClass="ViewController" customModule="GeoTweetLPiOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,11 +19,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Connexion" id="dXw-Cd-6tb"/>
+                    <tabBarItem key="tabBarItem" title="Connection" image="Earth" id="dXw-Cd-6tb"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jfL-xs-JRr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="820" y="-514"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="Lqi-dz-Xhw">
+            <objects>
+                <viewController id="48E-vD-Avt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JMC-Lg-pd6"/>
+                        <viewControllerLayoutGuide type="bottom" id="bNZ-As-fb0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vPy-aK-kvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BzV-TB-2Sk">
+                                <frame key="frameInset" width="375" height="610"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="14572" id="AMA-1G-Y1t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YWO-DB-Slm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1629.5999999999999" y="-207.34632683658174"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Efu-U4-11E">
@@ -37,6 +62,7 @@
                     <connections>
                         <segue destination="XCm-JJ-mfy" kind="relationship" relationship="viewControllers" id="waT-tS-Ztg"/>
                         <segue destination="Q4m-rK-Ejk" kind="relationship" relationship="viewControllers" id="j7C-aY-SGN"/>
+                        <segue destination="48E-vD-Avt" kind="relationship" relationship="viewControllers" id="kPp-Mz-NRa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWW-td-lck" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -66,11 +92,16 @@
                             <outlet property="delegate" destination="Q4m-rK-Ejk" id="VJu-WJ-h0P"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Timeline" id="5m9-JQ-99a"/>
+                    <tabBarItem key="tabBarItem" title="Timeline" image="twitter-icon-download-18" id="5m9-JQ-99a"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="05w-4k-1EH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="833" y="188"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="14572" width="35" height="35"/>
+        <image name="Earth" width="28" height="28"/>
+        <image name="twitter-icon-download-18" width="40" height="40"/>
+    </resources>
 </document>
