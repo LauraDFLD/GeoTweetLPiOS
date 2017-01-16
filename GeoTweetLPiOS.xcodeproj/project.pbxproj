@@ -18,6 +18,7 @@
 		D3B3F8BB1E28EEF2008FD767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B3F8BA1E28EEF2008FD767 /* ViewController.swift */; };
 		D3B3F8BE1E28EEF2008FD767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8BC1E28EEF2008FD767 /* Main.storyboard */; };
 		D3B3F8C31E28EEF2008FD767 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B3F8C11E28EEF2008FD767 /* LaunchScreen.storyboard */; };
+		D3C0443F1E2CBF8900F22AE6 /* LocalisationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C0443E1E2CBF8900F22AE6 /* LocalisationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D3B3F8BD1E28EEF2008FD767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3B3F8C21E28EEF2008FD767 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3B3F8C41E28EEF2008FD767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C0443E1E2CBF8900F22AE6 /* LocalisationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				D3B3F8C11E28EEF2008FD767 /* LaunchScreen.storyboard */,
 				D3B3F8C41E28EEF2008FD767 /* Info.plist */,
 				D33708601E2929E000DF6FBE /* SearchTimelineViewController.swift */,
+				D3C0443E1E2CBF8900F22AE6 /* LocalisationController.swift */,
 			);
 			path = GeoTweetLPiOS;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				D33708611E2929E000DF6FBE /* SearchTimelineViewController.swift in Sources */,
 				D3B3F8BB1E28EEF2008FD767 /* ViewController.swift in Sources */,
 				D3B3F8B91E28EEF2008FD767 /* AppDelegate.swift in Sources */,
+				D3C0443F1E2CBF8900F22AE6 /* LocalisationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

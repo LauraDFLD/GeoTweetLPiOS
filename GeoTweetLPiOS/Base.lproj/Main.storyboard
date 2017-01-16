@@ -25,30 +25,24 @@
             </objects>
             <point key="canvasLocation" x="820" y="-514"/>
         </scene>
-        <!--Map-->
-        <scene sceneID="Lqi-dz-Xhw">
+        <!--Localisation-->
+        <scene sceneID="0mk-g9-uzH">
             <objects>
-                <viewController id="48E-vD-Avt" sceneMemberID="viewController">
+                <viewController id="0FY-Id-hBW" customClass="LocalisationController" customModule="GeoTweetLPiOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JMC-Lg-pd6"/>
-                        <viewControllerLayoutGuide type="bottom" id="bNZ-As-fb0"/>
+                        <viewControllerLayoutGuide type="top" id="WbU-sC-ALV"/>
+                        <viewControllerLayoutGuide type="bottom" id="hum-Uq-Lfh"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vPy-aK-kvc">
+                    <view key="view" contentMode="scaleToFill" id="R5r-x0-6f7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BzV-TB-2Sk">
-                                <frame key="frameInset" width="375" height="610"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="14572" id="AMA-1G-Y1t"/>
+                    <tabBarItem key="tabBarItem" title="Localisation" image="14572" id="ohb-7F-eKK"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YWO-DB-Slm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hBQ-hw-Ldz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1629.5999999999999" y="-207.34632683658174"/>
+            <point key="canvasLocation" x="1671" y="-185"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Efu-U4-11E">
@@ -62,7 +56,7 @@
                     <connections>
                         <segue destination="XCm-JJ-mfy" kind="relationship" relationship="viewControllers" id="waT-tS-Ztg"/>
                         <segue destination="Q4m-rK-Ejk" kind="relationship" relationship="viewControllers" id="j7C-aY-SGN"/>
-                        <segue destination="48E-vD-Avt" kind="relationship" relationship="viewControllers" id="kPp-Mz-NRa"/>
+                        <segue destination="0FY-Id-hBW" kind="relationship" relationship="viewControllers" id="rWF-Ap-vv1"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nWW-td-lck" userLabel="First Responder" sceneMemberID="firstResponder"/>
